@@ -4,38 +4,89 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ayuda a un peludo</title>
-    <style>
-        body{
-            padding: 30px;
-        }
-        header, main{
-            text-align: center;
-        }
-        ul,li{
-            text-align: left;
-            
-        }
-    </style>
+    <link rel="stylesheet" href="./estilo/style.css">
 </head>
   
 <body>
+    <!--Navegador a inicio-->
+    <nav>
+        <a href="#inicio"><p>Inicio</p></a>
+    </nav>
     <!--Bloque inicio-->
-    <header>
-        <h1>ONG - AYUDA A UN PELUDO</h1>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero, sunt voluptatibus iusto ex quidem quam praesentium nesciunt vero numquam! Doloribus repellat, laudantium corrupti inventore dolorum natus totam officia iure magni.</p>
+    <header id="inicio">
+        <div>
+            <h1>ONG - AYUDA A UN PELUDO</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero, sunt voluptatibus iusto ex quidem quam praesentium nesciunt vero numquam! Doloribus repellat, laudantium corrupti inventore dolorum natus totam officia iure magni. Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus voluptatibus voluptatem ullam itaque beatae maiores aspernatur est obcaecati deleniti sapiente eius illo, esse ab provident officia tempora? Exercitationem, velit ipsam? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex nulla laborum facere repellendus quod, est perferendis delectus dolore deserunt incidunt modi beatae?</p>
+        </div>
+        
     </header>
 
+    <!--Bloque main-->
     <main>
-        <h2>Nuestros integrantes:</h2>
-        <ul>
-            <li>Persona 1 -cargo 1</li>
-            <li>Persona 2 -cargo 2</li>
-            <li>Persona 3 -cargo 3</li>
-            <li>persona n -cargo n</li>
-        </ul>
+        <div>
+            <h2>Nuestros integrantes:</h2>
+            <ul>
+                <li>Persona 1 - cargo 1</li>
+                <li>Persona 2 - cargo 2</li>
+                <li>Persona 3 - cargo 3</li>
+                <li>persona n - cargo n</li>
+            </ul>
+        </div>
+
+        <div>
+            <h2>Nuestras secciones de ayuda:</h2>
+            <div class="cardList">
+                <img src="./img/Gatos.jpg" alt="">
+                <a href="#gatosAdopcion"><p>Gatos</p></a>
+            </div>
+            <div class="cardList">
+                <img src="./img/Perros.jpg" alt="">
+                <a href="#perrosAdopcion"><p>Perros</p></a>
+            </div>
+        </div>
+
+        <div id="gatosAdopcion">
+            <h2>Gatos en adopcion</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi blanditiis, mollitia incidunt excepturi, laborum magni beatae vero voluptatibus ipsam, eos ex? Harum aliquam numquam ducimus temporibus nostrum iste quia eius? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet officia adipisci repudiandae corrupti maiores, aut quisquam impedit odio commodi magni odit culpa mollitia fuga doloremque exercitationem, eum, nisi excepturi dolore.</p>
+            <h3>Nuestros Gatos que buscan familia</h3>
+
+            <div class="cardList">
+                <img src="./img/Perros.jpg" alt="">
+                <p>Ginger</p>
+            </div>
+
+            <div class="cardList">
+                <img src="./img/Perros.jpg" alt="">
+                <p>Tommy</p>
+            </div>
+
+            <div class="cardList">
+                <img src="./img/Perros.jpg" alt="">
+                <p>Lucifer</p>
+            </div>
+        </div>
+
+        <div id="perrosAdopcion">
+            <h2>Perros en adopcion</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero odit suscipit ducimus iusto quam placeat iste culpa repellat? Praesentium autem corrupti, amet accusamus eius est culpa doloremque animi nulla illum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae voluptates doloribus dolor reiciendis quia aperiam voluptatum magnam, quod corrupti deleniti obcaecati delectus, maxime tempore eum, expedita incidunt quae veritatis assumenda.</p>
+            <h3>Nuestros perros en adopcion</h3>
+
+            <div class="cardList">
+                <img src="./img/Perros.jpg" alt="">
+                <p>Cachulo</p>
+            </div>
+
+            <div class="cardList">
+                <img src="./img/Perros.jpg" alt="">
+                <p>Niña</p>
+            </div>
+
+            <div class="cardList">
+                <img src="./img/Perros.jpg" alt="">
+                <p>Flaca</p>
+            </div>
+        </div>
     </main>
-
-
 
 </body>
 </html>
