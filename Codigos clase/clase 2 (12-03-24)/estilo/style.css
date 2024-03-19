@@ -68,3 +68,25 @@ ul{
 .cardList p{
     padding-top: 50px;
 }
+
+#adopcion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 800px;
+    margin: 0px auto 0px auto;
+}
+
+#card{
+    display: flex;
+    flex-direction: row;
+}
+
+#card img{
+    width: 400px;
+}
+
+#card p{
+    padding: 25px;
+}
