@@ -1,0 +1,27 @@
+html, body {
+    height: 100%;
+}
+
+body{
+    margin: 0;
+}
+
+
+.row-full, .conteiner-full{
+    height: 100%;
+}
+
+.sidebar {
+    background-color: black;
+}
+
+.no-bullets {
+    padding: 0;
+    list-style-type: none;
+}
+
+.col-blue {
+    background-color: blue;
+    color: white;
+    border: 1px solid black;
+}
