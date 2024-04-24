@@ -1,6 +1,25 @@
 body, html{
+    background-color: #146551;
+}
+
+main {
+    margin: 20px;
+    height: 100%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100%;
+    background-color: #146551;
+}
+
+#forgot{
+    margin: 10px auto 10px auto;
+}
+
+#login{
+    margin: 10px auto 10px auto;
+}
+
+#notmember{
+    margin: 10px auto 10px auto;
 }
